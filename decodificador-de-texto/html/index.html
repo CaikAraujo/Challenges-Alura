@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+
+    <!--CSS only-->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <main>
+        <div class="logo">
+            <img src="../images/Vector.png" alt="Logo-alura">
+        </div>
+
+        <div class="caixa-principal">
+            <section class="caixa-de-texto">
+                <textarea cols="30" rows="5" placeholder="Digite seu texto..." id="texto-input"></textarea>
+            </section>
+        </div>
+
+
+        <div class="contanier">
+            <div class="texto-cod"><span id="output"></span></div>
+            <div class="caixa-vazia">
+                <img src="../images/High quality products 1 1.svg" alt="NA" id="imagem" style="height: 304px; width: 290px;">
+                <h2 id="msg-notFound">Nenhuma mensagem encontrada</h2>
+                <span id="digite-texto">Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+            <div class="botao-copiar"><button class="btn" id="btn-copy" onclick="copiar()">Copiar</button></div>
+        </div>
+
+        <section class="rodape">
+            <div class="aviso">
+                <img src="../images/aviso.png" alt="aviso" style="width: 12px; height: 12px;">
+                <span>Apenas letras minúsculas e sem acento.</span>
+            </div>
+            <div class="botoes">
+                <button id="btn-crip" onclick="criptografar()">Criptografar</button>
+                <button id="btn-descript" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="../javascript/index.js"></script>
+</body>
+</html>

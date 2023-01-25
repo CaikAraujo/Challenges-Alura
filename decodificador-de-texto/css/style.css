@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 84px;
+}
+
+section.caixa-de-texto{
+    position: absolute;
+    left: 220px;
+    top: 110px;
+}
+
+section textarea{
+    width: 680px;
+    height: 48;
+    resize: none;
+    border: none;
+    background-color: #F3F5FC;
+
+
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+textarea:focus{
+    outline: 0;
+} 
+
+
+
+
+
+
+
+
+.contanier{
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    border: 2px solid #0A3871;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    width: 400px;
+    height: 650px;
+    background-color: white;
+}
+
+div.texto-cod{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 336px;
+    height: 500px;
+}
+
+span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+div.caixa-vazia{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.caixa-vazia h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 115%;
+    padding: 20px;
+}
+
+.caixa-vazia span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0px 50px;
+}
+
+div.botao-copiar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 560px;
+}
+
+button{
+    width: 75%;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    background-color: #fff;
+    color:#0A3871;
+    cursor: pointer;
+    display: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+button:hover{
+    background-color: rgb(222, 222, 222);
+    transition: .7s;
+}
+
+section.rodape{
+    position: absolute;
+    top: 560px;
+    left: 230px;
+}
+
+div.aviso{
+    display: flex;
+    align-items: center;
+}
+
+div.aviso span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    padding-left: 5px;
+}
+
+div.botoes{
+    display: flex;
+    margin-top: 10px;
+}
+
+div.botoes button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin: 15px;
+    width: 328px;
+    height: 45px;
+}
+
+#btn-crip{
+    background: #0A3871;
+    color: #fff;
+}
+
+#btn-descript{
+    background: #D8DFE8;
+}
+
+
